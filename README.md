@@ -1,6 +1,5 @@
 # IDM-Trial-Reset
 
-First u need to install python.. so u can download it by this link https://www.python.org/
 
 
 
