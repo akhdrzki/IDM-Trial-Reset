@@ -1,5 +1,7 @@
 # IDM-Trial-Reset
 
+# #install winreg
+pip install winreg
 
 
 
