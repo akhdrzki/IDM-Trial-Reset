@@ -13,9 +13,9 @@ if execute == "y" and "Y":
 	#deleting the key
     del_key = wrg.DeleteKey(key, "")
     print("")
-    print("Reset succesfuly.. reset your computer :)")
+    print("Reset succesfuly.. restart your computer :)")
 else:
-    print('you were cancelled to reset.. thanks:)')
+    print('you were cancelled to restart.. thanks:)')
 
 wrg.CloseKey(key)
 
