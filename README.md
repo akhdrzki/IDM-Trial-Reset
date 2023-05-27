@@ -1,9 +1,12 @@
-# IDM-Trial-Reset
+# IDM-Trial-Reset<br/>
 
 # #install winreg
 pip install winreg
 
-
+<pre>
+# #install winreg
+pip install winreg
+</pre>
 
 
 ![image](https://github.com/Rzkdriech/IDM-Trial-Reset/assets/87889949/d65caf98-8703-4df8-9158-7d71d429c89c)
