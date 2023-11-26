@@ -1,7 +1,7 @@
 import winreg 
 
 def reset_idm(locate, reg_path, reg_key):
-	open_reg = winreg.OpenKeyEx(loc, reg_path)
+	open_reg = winreg.OpenKeyEx(locate, reg_path)
 	open_key = winreg.CreateKey(open_reg, reg_key)
 
 	if open_reg: 
