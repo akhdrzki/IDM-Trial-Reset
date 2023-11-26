@@ -1,19 +1,26 @@
-# IDM-Trial-Reset<br/>
+
+# Reset Trial IDM
+
+A script to reset trial of idm, you don't need to buy idm if you are broke like me:). Avoid the pirates?? yup just use my script here.
 
 
-<pre>
-# #install winreg
-pip install winreg
-</pre>
 
 
-![image](https://github.com/Rzkdriech/IDM-Trial-Reset/assets/87889949/d65caf98-8703-4df8-9158-7d71d429c89c)
 
-Replace that path similar as ur registry
+## Example
 
-# USAGE
-Open cmd and use it by path where u place the script
-![image](https://github.com/Rzkdriech/IDM-Trial-Reset/assets/87889949/1a4d2107-f5a9-4d9a-9289-1b6030e524c9)
+```python
 
-Enjoy.. u dont need to crack idm anymore.. just use this stuff:)
+# input these variable
 
+locate = winreg.HKEY_USERS
+reg_path = 'S-1-5-21-3991912920-1792284575-3672857830-1002_Classes\\WOW6432Node\\CLSID' 
+# replace the reg_path variable value with your own path
+reg_key = '{07999AC3-058B-40BF-984F-69EB1E554CA7}'
+```
+
+### Usage
+Open Command prompt
+```python
+> main.py
+```
